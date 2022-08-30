@@ -12,3 +12,23 @@
 .cookies{
     color:chocolate
 }
+.box{
+    background-color: red;
+    padding: 10px;
+    border: 10px solid blue;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.containerflex {
+    display: flex;
+}
+.containerflex div{
+    background-color: rgb(212, 24, 128);
+    width: 500px;
+    height: 100px;
+    border: 100px solid black;
+    flex: 2;
+}
+.containerflex .two{
+    flex: 1 2 auto;
+}
